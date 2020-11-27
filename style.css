@@ -1,0 +1,156 @@
+* {
+	margin: 0;
+	padding: 0; 
+}
+
+html {
+	line-height: 2;
+	font-size: 100%;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.1rem;
+}
+
+a,a:link {
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	line-height: 1.3;
+	margin-bottom: .55em;
+	margin-top: .77em;
+}
+
+p {
+	line-height: 1.33;
+	margin-bottom: 1.3em;
+}
+
+section {
+	margin:3em auto;
+	width: 55%;
+}
+
+label {
+	display: inline-block;
+	margin-bottom: .5rem;
+}
+
+.site-header {
+	padding: 1em;
+	text-align: center;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+}
+
+.logo {
+	width: 230px;
+	height: 230px;
+	display: inline-block;
+	text-indent: -999em;
+	background-image: url(images/logo.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.site-nav {
+	margin: 2em auto;
+	width: 55%;
+}
+
+.site-nav ul li {
+	list-style: none;
+	display: inline;
+	margin-left: 1em;
+	margin-bottom: .5em;
+	padding: 5px 10px;
+}
+
+.site-nav ul li:first-child {
+	margin-left: 0;
+}
+
+li.active {
+	background-color: #ccc;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+li.active a {
+	color: #222;
+	text-decoration: none;
+}
+
+section ul li {
+	margin-left: 3.3em;
+	line-height: 1.33;
+	margin-bottom: .77em;
+}
+
+footer {
+	background-color: #cccccc;
+	margin: 2em 0 0;
+	padding: 2em 0;
+	text-align: center;
+}
+
+footer ul li {
+	display: inline;
+	margin-right: 1em;
+}
+
+footer ul li:last-child {
+	margin-right: 0;
+}
+
+.facebook,
+.instagram {
+	display: inline-block;
+	padding-left: 32px;
+	background-position: 0 4px;
+	background-repeat: no-repeat;
+}
+
+.facebook {
+	background-image: url(images/facebook.png);
+}
+
+.instagram {
+	background-image: url(images/instagram.png);
+}
+
+.form-group {
+	margin-bottom: 1em;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 8px 2px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 400;
+    color: #222;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #ccc;
+    border: 1px solid #333;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
